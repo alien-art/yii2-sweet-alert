@@ -1,0 +1,29 @@
+{
+    "name": "alien/yii2SweetAlert",
+    "description": "Asset for use SweetaAlert2 and replase standart js dialogs.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sweetalert","asset"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alien-art",
+            "email": "alien@alien-art.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/sweetalert2": "dev-dist"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "alien\\sweetalert\\": ""
+        }
+    }
+}
