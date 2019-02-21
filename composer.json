@@ -1,5 +1,5 @@
 {
-    "name": "alien/yii2SweetAlert",
+    "name": "alien/yii2-sweet-alert",
     "description": "Asset for use SweetaAlert2 and replase standart js dialogs.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","sweetalert","asset"],
