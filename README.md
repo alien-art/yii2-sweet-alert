@@ -20,3 +20,7 @@ php composer.phar require --prefer-dist alien/yii2-users "*"
 ```
 
 в секцию require  вашего `composer.json` файла.
+
+Подключаем в глобальный asset приложения или шаблон приложения 
+`BaseSweetAlertAsset` для стандартного использования SweetAlert
+`OverrideSweetAlertAsset` для стандартного использования SweetAlert с заменой стандратных JS диалогов
