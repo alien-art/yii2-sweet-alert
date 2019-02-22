@@ -11,32 +11,14 @@
             "email": "alien@alien-art.ru"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "bower-asset/sweetalert2",
-                "version": "dev-dist",
-                "source": {
-                    "url": "https://github.com/sweetalert2/sweetalert2.git",
-                    "type": "git",
-                    "reference": "dist"
-                },
-                "autoload": {
-                    "classmap": [""]
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev",
+    "minimum-stability": "@stable",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/sweetalert2": "dev-dist"
+        "npm-asset/sweetalert2": "*"
     },
     "extra": {
         "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "npm-asset-library": "vendor/npm"
         }
     },
     "autoload": {
