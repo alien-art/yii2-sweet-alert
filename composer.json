@@ -17,7 +17,7 @@
             "url": "https://github.com/sweetalert2/sweetalert2/tree/dist"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-dist",
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/sweetalert2": "@dev"
