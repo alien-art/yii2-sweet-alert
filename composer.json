@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/sweetalert2": "*-dist"
+        "bower-asset/sweetalert2": "@dev-dist"
     },
     "extra": {
         "asset-installer-paths": {
