@@ -11,10 +11,10 @@
             "email": "alien@alien-art.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/sweetalert2": "dev"
+        "bower-asset/sweetalert2": "*"
     },
     "extra": {
         "asset-installer-paths": {
