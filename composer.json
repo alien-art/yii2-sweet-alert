@@ -11,10 +11,16 @@
             "email": "alien@alien-art.ru"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sweetalert2/sweetalert2/tree/dist"
+        },
+    ],
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/sweetalert2": "@dev-dist"
+        "bower-asset/sweetalert2": "@dev"
     },
     "extra": {
         "asset-installer-paths": {
