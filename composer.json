@@ -13,14 +13,25 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/sweetalert2/sweetalert2/tree/dist"
+            "type": "package",
+            "package": {
+                "name": "bower-asset/sweetalert2",
+                "version": "dev-dist",
+                "source": {
+                    "url": "https://github.com/sweetalert2/sweetalert2.git",
+                    "type": "git",
+                    "reference": "dist"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
         }
     ],
-    "minimum-stability": "dev-dist",
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/sweetalert2": "@dev"
+        "bower-asset/sweetalert2": "dev-dist"
     },
     "extra": {
         "asset-installer-paths": {
