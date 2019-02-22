@@ -15,7 +15,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/sweetalert2/sweetalert2/tree/dist"
-        },
+        }
     ],
     "minimum-stability": "dev",
     "require": {
